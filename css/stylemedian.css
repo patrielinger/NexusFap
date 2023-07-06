@@ -1,19 +1,4 @@
-*{
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    /* box-sizing: border-box; */
-}
-.contra{
-    color: #62ff0d;
-}
-#part1{
-    color: #f437fa;
-}
-#part1:hover{
-    color: #dd2aaa;
-}
-
-@media(min-width:850px){
+@media(max-width:849px){
     body{
         background-color: #303030;
     }
@@ -61,9 +46,8 @@
         display: none;
     }
     aside{
-        width: 20%;
         text-align: center;
-        padding: 10px;
+        padding: 20px;
         background-color: #292929;
         position: relative;
         margin: 10px;
@@ -75,12 +59,12 @@
     aside b{
         color: white;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
     }
     aside li{
         display: flex;
         position: relative;
-        left: 30px;
+        left: 20px;
         color: rgb(58, 168, 253);
         text-decoration: none;
     }
@@ -154,6 +138,7 @@
         text-align: center;
         flex: 1;
     }
+
 section{
     width: 250px;
     height: 7100px;
@@ -165,6 +150,7 @@ section{
     width: 100%;
     margin: 10px;
 }
+
 .filtro{
     display: none;
 }
@@ -177,109 +163,40 @@ section{
     padding: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
-    overflow: hidden;
+    width: 150px;
+
 }
 .juego a{
     text-decoration: none;
     color: beige;
-    display: flex;
-}
-.juego main{
-    text-decoration: none;
-    color: beige;
-    display: flex;
 }
 .juego b{
     font-size: 1.4rem;
-    margin: 4px;
-    height: 20px;
     width: 80%;
     font-weight: 500;
 }
 .juego p{
     height: 10px;
+    display: inline;
+    font-size: 16px;
 }
 .img-juego{
         height: 100px;
         display: inline;
         border-radius: 10px;
-        max-width: 100%;
-        width: auto;
 }
 .cartel {
-    display: none; /* El cartel estará oculto inicialmente */
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #303030;
     border: 2px solid #3aa8fd;
+    width: 90%;
     color: white;
-    padding: 20px;
+    padding: 10px;
     z-index: 999;
-}
-.cartel1{
-        display: none; /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-}
-.cartel2{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel3{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel4{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel5{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: relative;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-    font-size: 0.5rem;
-    overflow-y: scroll;
 }
 .cerrar{
     border: 1px solid rgba(72, 255, 255, 0.953);
